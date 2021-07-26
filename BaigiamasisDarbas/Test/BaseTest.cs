@@ -38,7 +38,7 @@ namespace BaigiamasisDarbas
         [OneTimeTearDown]
         public static void TearDown()
         {
-            //driver.Quit();
+            driver.Quit();
         }
     }
 }
