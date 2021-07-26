@@ -49,9 +49,9 @@ namespace BaigiamasisDarbas.Page
             Driver.FindElement(By.CssSelector(".visi-catlist-wrap > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)")).Click();
             Driver.FindElement(By.CssSelector("#centerpanel > div.contentbox-center-wrap.nopad > table.productListing > tbody > tr:nth-child(5) > td:nth-child(6) > div")).Click();
             NavigateToDefaultPage();
-            IWebElement textCheck = Driver.FindElement(By.CssSelector("#product60fe3be2cb2b1 > td:nth-child(1)"));
+            IWebElement textCheck = Driver.FindElement(By.XPath("/html/body/div[6]/div[1]/div[4]/div[2]/div[5]/form/div[1]/table[1]/tbody/tr[2]/td[1]"));
             Assert.IsTrue(textCheck.Text.Contains("ASU650SS-240GT-R"), $"Expected {"ASU650SS-240GT-R"}, but was {textCheck.Text}");
-            Driver.FindElement(By.CssSelector("#centerpanel > div.contentbox-center-wrap-nofix > form > table > tbody > tr.pagerow > td > div > div.buttons-left > a:nth-child(2) > span")).Click();
+            Driver.FindElement(By.CssSelector("#centerpanel > div.contentbox-center-wrap-nofix > form > table > tbody > tr.pagerow > td > div > div.buttons-left > a:nth-child(2)")).Click();
             return this;
         }
     }
