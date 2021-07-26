@@ -63,9 +63,7 @@
     <Compile Include="Page\BasePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Page\SkytechCartPage.cs" />
-    <Compile Include="Test\SkytechCartPageTest.cs" />
-    <Compile Include="Test\SkytechForumPageTest.cs" />
-    <Compile Include="Test\SkytechMainPageTest.cs" />
+    <Compile Include="Test\SkytechPageTest.cs" />
     <Compile Include="Tools\MyScreenshot.cs" />
   </ItemGroup>
   <ItemGroup>
